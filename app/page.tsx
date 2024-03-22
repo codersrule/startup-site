@@ -1,113 +1,203 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <div>
+      <div className="sticky top-0 z-40 transform: translate3d(0, 0, 999px)">
+        <div className="absolute inset-0 h-full w-full opacity-80 bg-background transition-opacity"></div>
+        <nav className="relative z-40 border-default border-b backdrop-blur-sm transition-opacity">
+          <div className="relative flex justify-between h-16 mx-auto lg:container lg:px-16 xl:px-20">
+            <div className="flex items-center px-6 lg:px-0 flex-1 sm:items-stretch justify-between">
+              <div className="flex items-center">
+                <div className="flex items-center flex-shrink-0">
+                  <a
+                    className="block w-auto h-6 focus-visible:ring-2 focus-visible:outline-none focus-visible:ring-foreground-lighter focus-visible:ring-offset-4 focus-visible:ring-offset-background-alternative focus-visible:rounded-sm"
+                    href="index.html"
+                  >
+                    <img
+                      alt="Supabase Logo"
+                      fetchPriority="high"
+                      width="124"
+                      height="24"
+                      decoding="async"
+                      data-nimg="1"
+                      className="dark:hidden color: transparent"
+                      srcSet="
+                        _next/image%3Furl=%252F_next%252Fstatic%252Fmedia%252Fsupabase-logo-wordmark--light.daaeffd3.png&amp;w=128&amp;q=75t.daaeffd3.png&amp;w=128&amp_next/image%3Furl=%252F_next%252Fstatic%252Fmedia%252Fsupabase-logo-wordmark--light.daaeffd3.png&amp;w=256&amp;q=75ark--light.daaeffd3.png&amp;w=256&amp;q=75 2x
+                      "
+                      src="_next/image%3Furl=%252F_next%252Fstatic%252Fmedia%252Fsupabase-logo-wordmark--light.daaeffd3.png&amp;w=256&amp;q=75"
+                    />
+                    <img
+                      alt="Supabase Logo"
+                      fetchPriority="high"
+                      width="124"
+                      height="24"
+                      decoding="async"
+                      data-nimg="1"
+                      className="hidden dark:block color: transparent"
+                      srcSet="
+                        _next/image%3Furl=%252F_next%252Fstatic%252Fmedia%252Fsupabase-logo-wordmark--dark.b36ebb5f.png&amp;w=128&amp;q=75k.b36ebb5f.png&amp;w=128&amp_next/image%3Furl=%252F_next%252Fstatic%252Fmedia%252Fsupabase-logo-wordmark--dark.b36ebb5f.png&amp;w=256&amp;q=75mark--dark.b36ebb5f.png&amp;w=256&amp;q=75 2x
+                      "
+                      src="_next/image%3Furl=%252F_next%252Fstatic%252Fmedia%252Fsupabase-logo-wordmark--dark.b36ebb5f.png&amp;w=256&amp;q=75"
+                    />
+                  </a>
+                </div>
+                <nav
+                  aria-label="Main"
+                  data-orientation="horizontal"
+                  dir="ltr"
+                  className="relative z-10 flex-1 items-center justify-center hidden pl-8 sm:space-x-4 lg:flex h-16"
+                >
+                  <div className="position: relative">
+                    <ul
+                      data-orientation="horizontal"
+                      className="group flex flex-1 list-none items-center justify-center space-x-1"
+                      dir="ltr"
+                    >
+                      <li className="text-sm font-medium">
+                        <button
+                          id="radix-:Rimcq6:-trigger-radix-:Rbimcq6:"
+                          data-state="closed"
+                          aria-expanded="false"
+                          aria-controls="radix-:Rimcq6:-content-radix-:Rbimcq6:"
+                          className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus:outline-none focus:bg-accent focus:text-accent-foreground disabled:opacity-50 disabled:pointer-events-none hover:bg-accent data-[state=open]:bg-accent/50 data-[active]:bg-accent/50 group w-max group bg-transparent text-foreground hover:text-brand-link data-[state=open]:!text-brand-link data-[radix-collection-item]:focus-visible:ring-2 data-[radix-collection-item]:focus-visible:ring-foreground-lighter data-[radix-collection-item]:focus-visible:text-foreground p-2 h-auto"
+                          data-radix-collection-item=""
+                        >
+                          Product
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            className="lucide lucide-chevron-down relative top-[1px] ml-1 h-3 w-3 transition duration-200 group-data-[state=open]:rotate-180"
+                            aria-hidden="true"
+                          >
+                            <path d="m6 9 6 6 6-6"></path>
+                          </svg>
+                        </button>
+                      </li>
+                      <li className="text-sm font-medium">
+                        <button
+                          id="radix-:Rimcq6:-trigger-radix-:Rjimcq6:"
+                          data-state="closed"
+                          aria-expanded="false"
+                          aria-controls="radix-:Rimcq6:-content-radix-:Rjimcq6:"
+                          className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus:outline-none focus:bg-accent focus:text-accent-foreground disabled:opacity-50 disabled:pointer-events-none hover:bg-accent data-[state=open]:bg-accent/50 data-[active]:bg-accent/50 group w-max group bg-transparent text-foreground hover:text-brand-link data-[state=open]:!text-brand-link data-[radix-collection-item]:focus-visible:ring-2 data-[radix-collection-item]:focus-visible:ring-foreground-lighter data-[radix-collection-item]:focus-visible:text-foreground p-2 h-auto"
+                          data-radix-collection-item=""
+                        >
+                          Developers
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            className="lucide lucide-chevron-down relative top-[1px] ml-1 h-3 w-3 transition duration-200 group-data-[state=open]:rotate-180"
+                            aria-hidden="true"
+                          >
+                            <path d="m6 9 6 6 6-6"></path>
+                          </svg>
+                        </button>
+                      </li>
+                      <li className="text-sm font-medium">
+                        <a
+                          className="group/menu-item flex items-center text-sm hover:text-foreground select-none gap-3 rounded-md p-2 leading-none no-underline outline-none focus-visible:ring-2 focus-visible:ring-foreground-lighter group-hover:bg-transparent text-foreground focus-visible:text-brand-link"
+                          data-radix-collection-item=""
+                          href="docs/pricing.html"
+                        >
+                          <div className="flex flex-col justify-center">
+                            <div className="flex items-center gap-1">
+                              <p className="leading-snug text-foreground group-hover/menu-item:text-brand-link">
+                                Pricing
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li className="text-sm font-medium">
+                        <a
+                          className="group/menu-item flex items-center text-sm hover:text-foreground select-none gap-3 rounded-md p-2 leading-none no-underline outline-none focus-visible:ring-2 focus-visible:ring-foreground-lighter group-hover:bg-transparent text-foreground focus-visible:text-brand-link"
+                          data-radix-collection-item=""
+                          href="docs/resources.html"
+                        >
+                          <div className="flex flex-col justify-center">
+                            <div className="flex items-center gap-1">
+                              <p className="leading-snug text-foreground group-hover/menu-item:text-brand-link">
+                                Docs
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li className="text-sm font-medium">
+                        <a
+                          className="group/menu-item flex items-center text-sm hover:text-foreground select-none gap-3 rounded-md p-2 leading-none no-underline outline-none focus-visible:ring-2 focus-visible:ring-foreground-lighter group-hover:bg-transparent text-foreground focus-visible:text-brand-link"
+                          data-radix-collection-item=""
+                          href="blog.html"
+                        >
+                          <div className="flex flex-col justify-center">
+                            <div className="flex items-center gap-1">
+                              <p className="leading-snug text-foreground group-hover/menu-item:text-brand-link">
+                                Blog
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="absolute left-0 top-full flex justify-center"></div>
+                </nav>
+              </div>
+            </div>
+            <div className="inset-y-0 flex mr-2 items-center px-4 lg:hidden">
+              <button
+                className="text-foreground-lighter focus:ring-brand bg-background hover:bg-surface-100 inline-flex items-center justify-center rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-inset"
+                aria-expanded="false"
+              >
+                <span className="sr-only">Open main menu</span>
+                <svg
+                  className="block w-6 h-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+                <svg
+                  className="hidden w-6 h-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </nav>
       </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   );
 }
